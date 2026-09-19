@@ -1,0 +1,68 @@
+[
+    {
+        "title": "The Matrix",
+        "frames": [
+            "matrix_1.jpg",
+            "matrix_2.jpg",
+            "matrix_3.jpg",
+            "matrix_4.jpg",
+            "matrix_5.jpg",
+            "matrix_6.jpg"
+        ]
+    },
+    {
+        "title": "Inception",
+        "frames": [
+            "inception_1.jpg",
+            "inception_2.jpg",
+            "inception_3.jpg",
+            "inception_4.jpg",
+            "inception_5.jpg",
+            "inception_6.jpg"
+        ]
+    },
+    {
+        "title": "Interstellar",
+        "frames": [
+            "interstellar_1.jpg",
+            "interstellar_2.jpg",
+            "interstellar_3.jpg",
+            "interstellar_4.jpg",
+            "interstellar_5.jpg",
+            "interstellar_6.jpg"
+        ]
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "frames": [
+            "shawshank_1.jpg",
+            "shawshank_2.jpg",
+            "shawshank_3.jpg",
+            "shawshank_4.jpg",
+            "shawshank_5.jpg",
+            "shawshank_6.jpg"
+        ]
+    },
+    {
+        "title": "Fight Club",
+        "frames": [
+            "fightclub_1.jpg",
+            "fightclub_2.jpg",
+            "fightclub_3.jpg",
+            "fightclub_4.jpg",
+            "fightclub_5.jpg",
+            "fightclub_6.jpg"
+        ]
+    },
+    {
+        "title": "The Godfather",
+        "frames": [
+            "godfather_1.jpg",
+            "godfather_2.jpg",
+            "godfather_3.jpg",
+            "godfather_4.jpg",
+            "godfather_5.jpg",
+            "godfather_6.jpg"
+        ]
+    }
+]
