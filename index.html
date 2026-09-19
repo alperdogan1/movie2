@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviedle - Film Tahmin Oyunu</title>
+    
+    <!-- Stil Dosyası -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Konsoldaki favicon 404 hatasını önleyen satır -->
+    <link rel="icon" href="data:,">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🎬 MOVIEDLE</h1>
+        <p id="status-text">Oyun yükleniyor...</p>
+
+        <!-- Film Sahnesinin Gösterildiği Alan -->
+        <div class="image-box">
+            <img id="film-frame" src="" alt="Film Sahnesi">
+        </div>
+
+        <!-- Kontrol Butonları -->
+        <div class="button-box">
+            <button id="btn-play">Oynat</button>
+            <button id="btn-skip" style="display: none;">Hızlandır / Sonraki Kare</button>
+            <button id="btn-replay" style="display: none;">Tekrar Oyna 🔄</button>
+        </div>
+
+        <!-- Tahmin ve Otomatik Tamamlama Alanı -->
+        <div class="guess-box">
+            <div class="input-wrapper">
+                <input type="text" id="guess-input" placeholder="Film adını arayın..." autocomplete="off">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+            <button id="btn-submit" disabled>Tahmin Et</button>
+        </div>
+
+        <!-- Sonuç / Bilgi Mesajı -->
+        <p id="message"></p>
+    </div>
+
+    <!-- JavaScript Dosyası -->
+    <script src="script.js"></script>
+</body>
+</html>
